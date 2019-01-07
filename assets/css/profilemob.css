@@ -111,6 +111,7 @@ cursor: pointer;
   width:100%;
   position: fixed;
   bottom: 0px;
+  left: 0px;
 display: block;
 
   margin-top: 20px;
@@ -193,7 +194,6 @@ button:focus {
   float: left;
   width:100%;
   position:fixed;
-  top:70px;
 }
 #rankd{
   background-color: black;

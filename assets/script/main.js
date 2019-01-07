@@ -8,10 +8,10 @@ var b= document.getElementById('logdi');
 b.style.display="none";
 }
 if(a==6){
-   android.TestMethod();
+   android.TestMethod(1);
 }
 if(a==8){
-  window.location.assign("profile.html");
+  android.TestMethod(2);
 }
 if(a==19){
   window.location.assign("notification.html");

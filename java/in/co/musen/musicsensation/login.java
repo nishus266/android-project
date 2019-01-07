@@ -9,10 +9,17 @@ import android.webkit.WebView;
 public class login extends AppCompatActivity {
 
     @JavascriptInterface
-    public void TestMethod(){
-        Intent i = new Intent(login.this, feed.class);
-        startActivity(i);
-        finish();
+    public void TestMethod(int a){
+        if(a==1) {
+            Intent i = new Intent(login.this, feed.class);
+            startActivity(i);
+            finish();
+        }
+        else if(a==2){
+            Intent i = new Intent(login.this, login.class);
+            startActivity(i);
+            finish();
+        }
 
     }
 
