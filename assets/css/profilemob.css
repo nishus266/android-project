@@ -1,0 +1,229 @@
+@media only screen and (max-width: 432px) {
+  body{
+    font-size: 20px;
+    font-weight: 20px;
+    font-family: sans-serif;
+
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+  }
+
+  .top{
+    float: left;
+    width:100%;
+    background-color: black;
+
+  }
+
+  .head{
+    float: left;
+    margin-left: 5%;
+    color: white;
+  }
+  .logbt{
+    float: right;
+    margin-right: 5%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-top: 25px;
+    font-size: 15px;
+    font-weight: 15px;
+    display: block;
+  }
+.top1{
+  float: left;
+  width:100%;
+
+}
+.profilepic{
+  float: left;
+  width: 50%;
+margin-top: 10px;
+}
+.pic{
+  width:60%;
+  height: 100px;
+  border-radius:  130px;
+
+}
+.profilename{
+  float: left;
+  width: 100%;
+  margin-left: 10px;
+}
+.profilename1{
+  float: left;
+  width: 100%;
+margin-left: 10px;
+}
+.profilenamep{
+  font-size: 25px;
+  color:#333;
+  font-weight: 35px;
+  float: left;
+  margin-left: 10px;
+}
+.rankp{
+  font-size: 15px;
+  color:#222;
+  font-weight: 25px;
+  float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+.top2{
+  float: left;
+  width:100%;
+  margin-top: 20px;
+}
+.foll{
+  float: left;
+  margin-left:30px;
+  background-color: transparent;
+  border:none;
+  line-height: 1.5;
+  border-radius: 5px;
+cursor: pointer;
+}
+.foll1{
+  float: left;
+  margin-left:30px;
+  background-color: transparent;
+  border:0.5px solid #222;
+  width:100px;
+
+  border-radius: 5px;
+cursor: pointer;
+}
+.top3{
+  float: left;
+  width:100%;
+  border-top: 0.1px solid #333;
+}
+.menu{
+  float: left;
+  width:100%;
+  position: fixed;
+  bottom: 0px;
+display: block;
+
+  margin-top: 20px;
+}
+.menu div{
+  float: left;
+  width:25%;
+
+}
+.menu1{
+  float: right;
+  position: absolute;
+
+  top:0px;
+  right:0px;
+  width:70%;
+  background-color: black;
+  display: none;
+  height:100%;
+}
+
+@keyframes fgh {
+from{
+  width: 0px;
+}
+  to{
+    width:70%;
+  }
+}
+.nav{
+float: left;
+width:100%;
+}
+button:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.mainabo{
+  float: left;
+  width:100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.role{
+  margin-left:30px;float:left;margin-right:20px;font-size:15px;
+}
+.role1{
+  margin-left:30px;float:left;
+}
+
+.post{
+  width:90%;
+  float:left;
+  margin-left:5%;
+}
+.search input{
+  width:90%;
+  margin-left:5%;
+  border-radius: 5px;
+  height:40px;
+}
+.desmob{
+  display: none;
+}
+.rank{
+  width:100%;
+
+}
+#rank{
+  width:100%;
+}
+.rank img{
+  width:120px;
+  height: 120px;
+  border-radius:  130px;
+  margin-top: 40px;
+}
+.bomb{
+  float: left;
+  width:100%;
+  position:fixed;
+  top:70px;
+}
+#rankd{
+  background-color: black;
+  color:white;
+}
+#globald,#followd{
+  background-color: transparent;
+  color:#222;
+}
+#gloabl, #upload,#follow{
+  display: none;
+}
+#upload{
+  width:100%;
+  background: white;
+}
+#upload input,p{
+  margin-left: 10%;
+  font-size: 15px;
+}
+.bombp{
+  display: none;
+}
+.bomb, #follow, #gloabl{
+  display: block;
+}
+#mobc, #clc{
+  display: none;
+}
+#mob, #cl{
+  display: block;
+}
+}
